@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Sprite.gd" type="Script" id=1]
+[ext_resource path="res://cursedkirby.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 195.205, 179.825 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 2 )
+script = ExtResource( 1 )
